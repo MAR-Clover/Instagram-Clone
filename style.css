@@ -1,0 +1,166 @@
+
+#account_main{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px;
+
+}
+#account_main img{
+    width:100px;
+    border-radius:50%;
+    margin-top:40px;
+    
+}
+#account_main div p{
+    margin-left:20px;
+    font-size:20px;
+}
+#account_main h1{
+    margin-left:40px;
+}
+#account_main div{
+    margin-left:40px;
+    width:250px;
+    padding-left:0px;
+    background-color: white;
+}
+#account_main div:nth-child(3){
+    margin-top:0px;
+    margin-left:0;
+    width:400px;
+    padding-left:0px;
+    background-color: white;
+}
+#account_main div:nth-child(3) p{
+    font-size:15px;
+    margin-left:0;
+}
+#account_main div button{
+    width:100px;
+    margin-left:5px;
+}
+
+.feed_img_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.feed_img_container img {
+    width: calc(33.33% - 10px); /* Adjust 10px for margins or gaps */
+    margin: 1px; /* Optional: Adds spacing between images */
+}
+.feed_img_container div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    max-width:1000px;
+}
+#grtBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#grtBar div{
+    
+    width:200px;
+    text-align: center;
+}
+
+#grtBar div p{
+    background-color: white;
+    border-radius: 10px;
+}
+#followBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+#followBar div{
+    width:200px;
+    text-align: center;
+    margin:10px;
+}
+#followBar div p{
+    font-size:16px;
+    margin:0px
+}
+#followBar div p:nth-child(2){
+    font-size: 15px;
+    color:grey;
+}
+#stories{
+    display: flex;
+    background-color: white;
+    max-height:120px;
+    width:100%;
+    margin:0 auto;
+    
+}
+#stories div{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+#stories div img{
+    border-radius:50%;
+    margin:20px;
+    border:2px solid grey;
+}
+#signIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set the height of #signIn to the full viewport height */
+    background-color: white;
+}
+#signIn h3{
+    font-size: 60px;
+    background-color: white;
+    margin-bottom:5px;
+    color:black;
+}
+
+#signIn div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 0;
+    
+}
+
+#signIn div h1 {
+    margin-bottom: 20px; 
+}
+
+#signIn div input {
+    width: 200px;
+    height: 40px;
+    margin:2px;
+    border-radius: 5px;
+    background-color: rgb(245, 242, 242);
+    border:1px solid grey;
+    padding:5px;
+}
+#signIn div button {
+    width:200px;
+    height:40px;
+    margin:20px;
+    border-radius: 10px;
+    background-color: #405de6;
+    border:0px;
+    color:white;
+}
