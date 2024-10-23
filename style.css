@@ -146,9 +146,10 @@ body {
 
 
 #account_main{
-    background-color: white;
+    background-color: transparent;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin:20px;
 
 }
@@ -160,6 +161,7 @@ body {
 }
 #account_main div p{
     margin-left:20px;
+    padding-bottom:20px;
     font-size:20px;
 }
 #account_main h1{
@@ -167,16 +169,16 @@ body {
 }
 #account_main div{
     margin-left:40px;
+    margin-top:40px;
     width:250px;
-    padding-left:0px;
-    background-color: white;
+    background-color: transparent;
 }
 #account_main div:nth-child(3){
     margin-top:0px;
     margin-left:0;
     width:400px;
     padding-left:0px;
-    background-color: white;
+    background-color: transparent;
 }
 #account_main div:nth-child(3) p{
     font-size:15px;
@@ -203,31 +205,35 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: white;
+    background-color: transparent;
     max-width:1000px;
 }
 #grtBar{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin:10px;
     
 }
 #grtBar div{
     
-    width:200px;
+    width:300px;
     text-align: center;
 }
 
 #grtBar div p{
-    background-color: white;
+    background-color: transparent;
     border-radius: 10px;
 }
 #followBar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
+    max-width:975px;
+    margin-left: auto;
+    margin-right:auto;
 }
 #followBar div{
     width:200px;
@@ -244,7 +250,7 @@ body {
 }
 #stories{
     display: flex;
-    background-color: white;
+    background-color: transparent;
     max-height:120px;
     width:100%;
     margin:0 auto;
